@@ -13,5 +13,14 @@ public class CleanGameObjectEditor : MonoBehaviour
         GameObjectUtility.SetParentAndAlign(gameObject, menuCommand.context as GameObject);
         Undo.RegisterCreatedObjectUndo(gameObject, "Create " + gameObject.name);
         Selection.activeObject = gameObject;
+
+		if((menuCommand.context as GameObject) == null) return;
+
+		Transform root = (menuCommand.context as GameObject).transform.root;
+
+		if(root.GetComponentInChildren<Canvas>() != null || root.GetComponent<Canvas>())
+		{
+			gameObject.AddComponent<RectTransform>();
+		}
     }
 }
