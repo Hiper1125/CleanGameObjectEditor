@@ -2,7 +2,7 @@
 [![Unity 2021.3+](https://img.shields.io/badge/unity-2021.3%2B-blue.svg)](https://unity3d.com/get-unity/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE.md)
 
-This package allows to creation of empty game objects with the Transform values zeroed out. <br>
+This package allows to create empty game objects with the Transform values zeroed out. <br>
 Instead of the default "New Empty" method, it removes all the floating values based on the camera position.
 
 ## System Requirements
