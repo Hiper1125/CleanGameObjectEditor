@@ -6,8 +6,8 @@
   "documentationUrl": "https://github.com/Hiper1125/CleanGameObjectEditor",
   "changelogUrl": "https://github.com/Hiper1125/CleanGameObjectEditor/blob/main/CHANGELOG.md",
   "licensesUrl": "https://github.com/Hiper1125/CleanGameObjectEditor/blob/main/LICENSE.md",
-  "description": "This package allows to creation of empty game objects with the Transform values zeroed out. /nInstead of the default New Empty method, it removes all the floating values based on the camera position.",
+  "description": "This package allows to create empty game objects with the Transform values zeroed out.\nInstead of the default New Empty method, it removes all the floating values based on the camera position.",
   "unity": "2020.1",
-  "dependencies": {  },
+  "dependencies": {},
   "samples": []
 }
