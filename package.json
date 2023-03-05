@@ -1,32 +1,13 @@
 {
-  "displayName": "[Package Name]",
-  "author": "Quin Henshaw",
+  "displayName": "CleanGameObjectEditor",
+  "author": "Samuele Guerrini",
   "version": "1.0.0",
-  "name": "com.qhenshaw.[packagename]",
-  "documentationUrl": "https://github.com/qhenshaw/[repourl]",
-  "changelogUrl": "https://github.com/qhenshaw/[repourl]/blob/main/CHANGELOG.md",
-  "licensesUrl": "https://github.com/qhenshaw/[repourl]/blob/main/LICENSE.md",
-  "description": "[Description here]",
+  "name": "com.hiper1125.cleangameobjecteditor",
+  "documentationUrl": "https://github.com/Hiper1125/CleanGameObjectEditor",
+  "changelogUrl": "https://github.com/Hiper1125/CleanGameObjectEditor/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Hiper1125/CleanGameObjectEditor/blob/main/LICENSE.md",
+  "description": "This package allows to creation of empty game objects with the Transform values zeroed out. /nInstead of the default New Empty method, it removes all the floating values based on the camera position.",
   "unity": "2020.1",
-  "dependencies": {
-    "com.unity.2d.sprite": "1.0.0",
-	"com.unity.ugui": "1.0.0"
-  },
-  "samples": [
-	{
-      "displayName": "[Sample 1 display name]",
-      "description": "[Sample 1 description]",
-      "path": "Samples~/[Sample1Location]"
-    },
-    {
-      "displayName": "[Sample 2 display name]",
-      "description": "[Sample 2 description]",
-      "path": "Samples~/[Sample2Location]"
-    },
-	{
-      "displayName": "[Sample 3 display name]",
-      "description": "[Sample 3 description]",
-      "path": "Samples~/[Sample3Location]"
-    }
-  ]
+  "dependencies": {  },
+  "samples": []
 }
